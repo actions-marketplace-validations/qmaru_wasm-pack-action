@@ -1,17 +1,13 @@
-<p align="center">
-  <a href="https://github.com/qmaru/wasm-pack-action/actions">
-  <img alt="wasm-pack-action status" src="https://github.com/qmaru/wasm-pack-action/workflows/build-test/badge.svg">
-  </a>
-</p>
-
 # `wasm-pack-action`
+
+[![wasm-pack-action status](https://github.com/qmaru/wasm-pack-action/workflows/build-test/badge.svg)](https://github.com/qmaru/wasm-pack-action/actions)
 
 Install `wasm-pack` by downloading the executable (much faster than `cargo install wasm-pack`, seconds vs minutes).
 
 ## Patch
 
 | before | now |
-| :-: | :-:  |
+| :-: | :-: |
 | node16 | node20 |
 | eslint | oxlint |
 | @zeit/ncc | @vercel/ncc |
@@ -19,7 +15,7 @@ Install `wasm-pack` by downloading the executable (much faster than `cargo insta
 ## Usage
 
 ```yaml
-- uses: qmaru/wasm-pack-action@v0.5.2
+- uses: qmaru/wasm-pack-action@v0.5.3
   with:
     # Optional version of wasm-pack to install(eg. 'v0.13.1', 'latest')
     version: 'latest'
