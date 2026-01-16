@@ -6,7 +6,7 @@ inputs:
     description: 'Optional version of wasm-pack to install (eg. "v0.13.1", "latest")'
     default: 'latest'
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'dist/index.js'
 branding:
   icon: 'package'
